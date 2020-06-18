@@ -1,5 +1,5 @@
 # Vabuum
-E-commerce android app
+E-commerce android app using Firebase
 
 | Splash Screen  | Register Screen | Login Screen
 |  ------------- |  ------------- | -------------
