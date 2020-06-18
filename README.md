@@ -1,2 +1,0 @@
-# Vabuum
-e-commerce app
