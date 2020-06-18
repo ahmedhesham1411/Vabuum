@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_open_account_group">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            />
+    </group>
+    <group android:id="@+id/nav_cart">
+        <item
+            android:id="@+id/nav_goto_mycart"
+            android:title="My Cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+    </group>
+    <group android:id="@+id/nav_login_group">
+        <item
+            android:id="@+id/nav_favourite"
+            android:title="Favourite"
+            android:icon="@drawable/ic_favorite_black_24dp"/>
+    </group>
+    <group android:id="@+id/nav_settinga">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About us"
+            android:icon="@drawable/ic_accessibility_black_24dp"/>
+    </group>
+    <group android:id="@+id/nav_settingaa">
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="Contact us"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"/>
+    </group>
+    <group android:id="@+id/nav_stock" >
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log out"
+            android:icon="@drawable/ic_sentiment_neutral_logout"/>
+    </group>
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="are you sure you want to log out ?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <com.example.onlineshopping.Utils.MyButtonBold
+            android:id="@+id/btnNo"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btn_gradient"
+            android:text="no"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="match_parent"/>
+
+        <com.example.onlineshopping.Utils.MyButtonBold
+            android:id="@+id/btnYes"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btn_gradient"
+            android:text="yes"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:textAllCaps="false" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
